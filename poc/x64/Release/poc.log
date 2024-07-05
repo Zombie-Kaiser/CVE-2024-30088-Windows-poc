@@ -1,0 +1,19 @@
+﻿  main.cpp
+C:\Users\pass9\Downloads\CVE-2024-30088-main\CVE-2024-30088-main\poc\ex.h(67,7): warning C4311: “类型强制转换”: 从“HANDLE”到“DWORD”的指针截断
+  (编译源文件“main.cpp”)
+  
+C:\Users\pass9\Downloads\CVE-2024-30088-main\CVE-2024-30088-main\poc\ex.h(67,7): warning C4302: “类型强制转换”: 从“HANDLE”到“DWORD”截断
+  (编译源文件“main.cpp”)
+  
+C:\Users\pass9\Downloads\CVE-2024-30088-main\CVE-2024-30088-main\poc\main.cpp(81,9): warning C4477: “printf”: 格式字符串“%x”需要类型“unsigned int”的参数，但可变参数 1 拥有了类型“HANDLE”
+C:\Users\pass9\Downloads\CVE-2024-30088-main\CVE-2024-30088-main\poc\main.cpp(81,9): warning C4313: "printf": 格式字符串中的 "%x" 与类型为 "HANDLE" 的参数 1 冲突
+C:\Users\pass9\Downloads\CVE-2024-30088-main\CVE-2024-30088-main\poc\main.cpp(81,9): warning C4477: “printf”: 格式字符串“%p”需要类型“void *”的参数，但可变参数 2 拥有了类型“ULONGLONG”
+C:\Users\pass9\Downloads\CVE-2024-30088-main\CVE-2024-30088-main\poc\main.cpp(97,33): warning C4244: “=”: 从“__int64”转换到“DWORD”，可能丢失数据
+C:\Users\pass9\Downloads\CVE-2024-30088-main\CVE-2024-30088-main\poc\main.cpp(107,9): warning C4477: “printf”: 格式字符串“%llx”需要类型“unsigned __int64”的参数，但可变参数 1 拥有了类型“BYTE *”
+C:\Users\pass9\Downloads\CVE-2024-30088-main\CVE-2024-30088-main\poc\main.cpp(127,9): warning C4477: “printf”: 格式字符串“%x”需要类型“unsigned int”的参数，但可变参数 1 拥有了类型“HANDLE”
+C:\Users\pass9\Downloads\CVE-2024-30088-main\CVE-2024-30088-main\poc\main.cpp(127,9): warning C4313: "printf": 格式字符串中的 "%x" 与类型为 "HANDLE" 的参数 1 冲突
+  正在生成代码
+  Previous IPDB not found, fall back to full compilation.
+  All 8 functions were compiled because no usable IPDB/IOBJ from previous compilation was found.
+  已完成代码的生成
+  poc.vcxproj -> C:\Users\pass9\Downloads\CVE-2024-30088-main\CVE-2024-30088-main\x64\Release\poc.exe
